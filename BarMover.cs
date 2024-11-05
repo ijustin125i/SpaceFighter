@@ -3,9 +3,9 @@ using UnityEngine;
 
 public class BarMover : MonoBehaviour
 {
-    public float moveSpeed = 2f; // Speed at which the bar moves
-    public float rightMoveRange = 0.5f; // Distance the bar moves to the right from its start position
-    public float leftMoveRange = 1.5f; // Distance the bar moves to the left from its start position
+    public float moveSpeed = 2f; // Speed
+    public float rightMoveRange = 0.5f; // Distance the bar moves to the right 
+    public float leftMoveRange = 1.5f; // Distance the bar moves to the left 
     private float startX; 
     private bool movingRight = true; 
 
@@ -19,7 +19,7 @@ public class BarMover : MonoBehaviour
     {
         float newX = transform.position.x;
 
-        // Move the bar right if movingRight is true
+        // Move the bar right 
         if (movingRight)
         {
             newX += moveSpeed * Time.deltaTime;
