@@ -3,22 +3,20 @@
 # Get latest from https://github.com/github/gitignore/blob/main/Unity.gitignore
 #
 /[Ll]ibrary/
+/[Ll]ibrary/ArtifactDB/
+/[Ll]ibrary/PackageCache/
+# Include more specific paths for files you know are too large
+/L*/**/*.dll
+/L*/**/*.so
+/L*/**/*.dylib
 /[Tt]emp/
 /[Oo]bj/
 /[Bb]uild/
 /[Bb]uilds/
 /[Ll]ogs/
 /[Uu]ser[Ss]ettings/
-/[Ll]ibrary/
-/[Ll]ibrary/PackageCache/
-
-# MemoryCaptures can get excessive in size.
-# They also could contain extremely sensitive data
 /[Mm]emoryCaptures/
-
-# Recordings can get excessive in size
 /[Rr]ecordings/
-
 # Uncomment this line if you wish to ignore the asset store tools plugin
 # /[Aa]ssets/AssetStoreTools*
 
